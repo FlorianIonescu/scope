@@ -17,5 +17,8 @@
     "typescript": "^5.7.3",
     "vitest": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "dist"
+  ]
 }
