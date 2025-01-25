@@ -1,6 +1,7 @@
 {
   "name": "@florianionescu/scope",
   "version": "1.0.6",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -17,7 +18,6 @@
   },
   "dependencies": {},
   "types": "dist/index.d.ts",
-  "type": "module",
   "files": [
     "dist"
   ]
