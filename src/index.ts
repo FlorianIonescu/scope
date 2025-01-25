@@ -1,1 +1,1 @@
-export { default } from "./scope"
+export { default } from "./scope.js"
