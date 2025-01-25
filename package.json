@@ -1,6 +1,6 @@
 {
   "name": "@florianionescu/scope",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -20,5 +20,11 @@
   "dependencies": {},
   "files": [
     "dist"
-  ]
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
 }
