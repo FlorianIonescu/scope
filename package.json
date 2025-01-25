@@ -1,9 +1,7 @@
 {
   "name": "@florianionescu/scope",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "vitest"
@@ -18,13 +16,9 @@
     "vitest": "^3.0.2"
   },
   "dependencies": {},
+  "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
-  ],
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  }
+  ]
 }
