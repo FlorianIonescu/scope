@@ -24,7 +24,7 @@ export default class Scope {
     }
 
     if (!context) {
-      throw Error(`Attempted to access context ${context} outside its scope.`)
+      throw Error(`Attempted to access context ${name} outside its scope.`)
     }
 
     return context.context
